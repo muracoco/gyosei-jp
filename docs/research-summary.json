@@ -1,0 +1,93 @@
+{
+  "as_of": "2026-09-12",
+  "skill_sha256": "b970cf253a58a6a42337990fba9c9155433a33199ca1ed4ad69a91bef540f123",
+  "corpus_v1": {
+    "prefectures": 12,
+    "collected_documents": 4871,
+    "analysis_documents": 4868,
+    "sentences": 245885,
+    "scope": "Descriptive observation of the collected sources, not a nationwide representative sample."
+  },
+  "three_group_comparison": {
+    "administrative_documents": 2472,
+    "ai_documents": 1000,
+    "nonadministrative_formal_documents": 1000
+  },
+  "candidate_rules": {
+    "total": 202,
+    "structural_operations_retained": 2,
+    "observation_only": 194,
+    "rejected": 6
+  },
+  "current_norms": {
+    "scoped_structural_operations": 2,
+    "editorial_heuristics": 16,
+    "meaning_and_usage_invariants": 8
+  },
+  "exploration": {
+    "model_calls_through_p112": 17604,
+    "p113": "incomplete",
+    "new_exploration_during_editorial_revision": false,
+    "formal_score": "unverified"
+  },
+  "historical_luna_final": {
+    "tasks": 361,
+    "accepted": 0,
+    "returned_to_source": 298,
+    "unchanged": 63,
+    "interpretation": "Conservative no-op, not an improvement success rate."
+  },
+  "later_coverage": {
+    "administrative_organizations": 20,
+    "nonadministrative_organizations": 12,
+    "sectors": 7,
+    "ai_models": 3,
+    "interpretation": "Coverage, not quality or preference evidence."
+  },
+  "current_revision": {
+    "general_improvement_rate": "not_measured",
+    "comparative_superiority": "not_measured",
+    "human_preference": "not_measured",
+    "known_fixed_wording_check_failures": 1
+  },
+  "publication": {
+    "municipal_source_bodies_included": false,
+    "individual_model_outputs_included": false,
+    "source_reconstruction_records_included": false,
+    "research_reexecution_from_public_files_alone": false
+  },
+  "source_records": [
+    {
+      "research_archive_path": "docs/reports/2026-08-27-corpus-v1-analysis.md",
+      "sha256": "4f5b2f164f9e1c45184b4179e66fabf3c64265fb9300d834477e89db2e3cc9a5"
+    },
+    {
+      "research_archive_path": "docs/reports/2026-08-28-three-group-rule-validation.md",
+      "sha256": "02ce6ff0ad8a9585a9e48221c858bd2c7b5021d82233117e191921f86508d447"
+    },
+    {
+      "research_archive_path": "data/public-manifests/evidence-registry-v1/norm_registry.json",
+      "sha256": "20edefce187f9bf71c742acbe842c3e3f5019675b04b3632bce1b298b8b708e8"
+    },
+    {
+      "research_archive_path": "data/public-manifests/neutral-benchmark-v1/claims_correction.json",
+      "sha256": "0086e329e8f3aeba157eb85bc84bffb6140dd59671c1b897612dc26c65d5d42a"
+    },
+    {
+      "research_archive_path": "data/public-manifests/realworld-benchmark-v3/luna_final_summary.json",
+      "sha256": "1ce248a754adff33ce5cb1cccada273b7aaf4595c893e70af6590c53315e80cf"
+    },
+    {
+      "research_archive_path": "data/public-manifests/analysis-v3/external_validity_summary.json",
+      "sha256": "fa9473fef7c4613cdf3847396db7a5672b0b7d88e7501717e376d7bd8067a457"
+    },
+    {
+      "research_archive_path": "data/public-manifests/pro-led-100-v1/autonomous_convergence_status.json",
+      "sha256": "f3bb0d91e5d49c23bb05200501b55e0e09a0d61ca70eb0fbf3cf7e6bfcfc1193"
+    },
+    {
+      "research_archive_path": "docs/reports/skill-editorial-handoff.md",
+      "sha256": "8efc4e2b4911ef33434943b05695031975b4b6be4fef69f6f158f5a9bf4cd2b4"
+    }
+  ]
+}

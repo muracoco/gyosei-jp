@@ -1,0 +1,10 @@
+# 公開するSkillと別添資料だけを追跡する。
+/*
+!/.gitignore
+!/README.md
+!/SKILL.md
+!/LICENSE
+!/docs/
+/docs/*
+!/docs/methodology.md
+!/docs/research-summary.json
