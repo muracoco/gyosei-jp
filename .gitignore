@@ -8,3 +8,6 @@
 /docs/*
 !/docs/methodology.md
 !/docs/research-summary.json
+!/docs/examples.md
+!/docs/evaluation.md
+!/docs/evaluation-cases.json
